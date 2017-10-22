@@ -1,0 +1,104 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+.wrapper {
+    position:absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    width:100%;
+    height:100%;
+    background: url("wrapper.jpg") no-repeat center center;
+    z-index: -10;
+}
+
+.cheat{
+color:white;
+}
+
+.logo{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:280px;
+    max-width: 350px ;
+    min-width: 250px ; 
+    width: 20%;
+    padding: 80px;
+    filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.2));
+}
+
+.container{
+    margin-top:1200px;
+}
+
+.scrolldown {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+    width: 10%; 
+    max-width: 75px;
+    z-index: 99;
+    filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.7));
+}
+
+article {
+    background-color: ;
+    color: ;
+    margin-bottom: 0.75rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 4em;
+}
+
+li {
+    border-bottom: 2px;
+    border-color: black;
+    padding:5px;
+    list-style-type:none;
+    border-bottom: 1px solid lightgrey;
+    text-indent: 50px;
+}
+
+
+
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
